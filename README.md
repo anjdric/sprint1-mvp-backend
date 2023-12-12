@@ -24,8 +24,8 @@ O projeto está organizado da seguinte forma:
   - 📁 **`instance/`** - Diretório contendo o arquivo de do banco de dados (sqlite).
   - 📁 **`models/`** - Diretório contendo as implementações das entidades do banco de dados e operações no banco de dados.      
   - 📁 **`resources/`** - Diretório contendo recursos da API.
-  - 📁 **`schema/`** - Diretório contendo os schemas de validação que definem as entidades do banco de dados.
-  - 📁 **`static/`** - Diretório contendo arquivos UTÉIS que suportam a aplicação. 
+  - 📁 **`schema/`** - Diretório contendo os arquivos de validação, validando os schemas das entidades nas requisições GET, POST, PUT e DELETE.
+  - 📁 **`static/`** - Diretório contendo arquivos ÚTEIS que suportam a aplicação. 
 
 ## 📌 Responsabilidade da Estrutura
 
