@@ -100,6 +100,15 @@ Para executar o projeto localmente, siga os passos abaixo:
    > Abra o [http://localhost:5001/](http://127.0.0.1:5001) no navegador para verificar o status da API em execução.
 
 
+## 📌 Backlogs Features
+> Funcionalidades que continuarão sendo implementadas, devido ao prazo não foi possível 
+
+
+- [ ] Resource POST - Cadastrar Hotel
+- [ ] Resource PUT - Editar Hotel
+- [ ] Resource DELETE - Deletar Hotel
+- [ ] Resource GET - confirmação por email
+
 
 ## 📌 Autores
 
