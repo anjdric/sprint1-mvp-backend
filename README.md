@@ -97,4 +97,7 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 
 
+## 📌 Autores
 
+- ✒️ **Desenvolvedor** - Paulo Cesar Luna
+- ✒️ **Documentação** - Paulo Cesar Luna
