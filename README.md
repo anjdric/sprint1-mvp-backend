@@ -99,6 +99,27 @@ Para executar o projeto localmente, siga os passos abaixo:
 - ✒️ **Rodar no Browser**  
    > Abra o [http://localhost:5001/](http://127.0.0.1:5001) no navegador para verificar o status da API em execução.
 
+## 📌 Tecnologias Utilizadas
+
+- Linguagem de programação: Python 3.9
+- Banco de Dados: SQLite
+
+## 📌 Dependências/Bibliotecas
+> Objetivo é apenas externalizar as principais dependencias do projeto.
+> 
+> Não é necessário instalar manualmente, siga os passos na sessão instalar -> requirements.txt
+
+- flask==2.2.5
+- flask-apispec==0.11.4
+- Flask-Cors==4.0.0
+- Flask-JWT-Extended==4.5.2
+- Flask-RESTful==0.3.10
+- flask-restful-swagger-3==0.5.1
+- Flask-SQLAlchemy==3.0.3
+- SQLAlchemy==2.0.21
+- marshmallow==3.20.1
+- Werkzeug==3.0.1  
+
 
 ## 📌 Backlogs Features
 > Funcionalidades que continuarão sendo implementadas, devido ao prazo não foi possível 
