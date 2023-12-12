@@ -29,6 +29,13 @@ O projeto está organizado da seguinte forma:
 
 ## 📌 Responsabilidade da Estrutura
 
+### 📂 `/`
+
+- 📄 **app.py**: Arquivo que inicializa Flask e registra os recursos da API.
+- 📄 **sql_alchemy.py**: Arquivo que inicializa SQLAlchemy para o acesso a dados.
+- 📄 **blacklist.py**: Arquivo responsável por gerenciar os JWT tokens expirados.
+- 📄 **requirements.txt**: Arquivo responsável por gerenciar os pacotes/bibliotecas da aplicação (instalar, restaurar).
+
 ### 📂 `instance/`
 
 - 📄 **db.sqlite3**: Arquivo de banco de dados, caso não exista será gerado no primeiro acesso as rotas.
