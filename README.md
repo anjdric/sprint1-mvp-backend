@@ -10,7 +10,9 @@
 
 ### ⭐ BACKEND - Guia de Roteiro de Hospedagem
 
-Este projeto consiste em um aplicativo que realiza operações CRUD (Create, Read, Update, Delete) para hotéis e usuários. Ele consome uma API de backend para gerenciar os dados.
+Sistema tem por objetivo facilitar o compartilhamento de locais e hotéis entre usuários cadastrados na plataforma.
+
+Idéia consiste em um hub de troca de locais e hospedagem entré os colaboradores da plataforma.
 
 ## 📌 Estrutura da Aplicação
 
