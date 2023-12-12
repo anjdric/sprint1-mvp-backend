@@ -23,8 +23,6 @@ class Users(Resource):
     post_args.add_argument("password", type=str, required=True, help=REQUIRED.PASSWORD.value)
     post_args.add_argument("email", type=str, required=True, help=REQUIRED.EMAIL.value)
 
-    @jwt_required()
-    @swagger.security(Bearer=[])
     @swagger.reorder_list_with(UserModelSchema, summary="*** Return a List of Users")
     @swagger.response(schema=MessageSchema, response_code=_.INTERNAL_SERVER_ERROR, description=_.INTERNAL_SERVER_ERROR.description)
     def get(self):
