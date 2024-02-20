@@ -7,7 +7,7 @@ from flask_jwt_extended import JWTManager
 
 from resources.auth_resource import AuthToken
 from resources.hotel_resource import Hoteis, Hotel
-from resources.register_resource import ConfirmAccount
+from resources.register_resource import Register
 from resources.user_resource import User, Users
 
 from blacklist import BLACKLIST
@@ -89,7 +89,7 @@ def expired_token_callback(jwt_header, jwt_payload):
 
 
 api.add_resource(AuthToken, '/api/authenticate')
-api.add_resource(ConfirmAccount, '/api/user/<int:user_id>')
+api.add_resource(Register, '/api/user/<int:user_id>')
 
 api.add_resource(Users, '/api/users')
 api.add_resource(User, '/api/users/<int:user_id>')

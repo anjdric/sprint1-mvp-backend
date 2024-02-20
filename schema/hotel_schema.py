@@ -43,6 +43,10 @@ class HotelSchema(HotelIdSchema):
             'type': 'string',
             'nullable': True
         },
+        'url_background': {
+            'type': 'string',
+            'nullable': True
+        },
         'url_youtube': {
             'type': 'string',
             'nullable': True
@@ -78,8 +82,12 @@ Specifications Validation
 """
 
 
-class UserRequired(Enum):
-    NAME = 'The field \'Nome\' is required.'
-    EMAIL = 'The field \'Email\' is required.'
-    LOGIN = 'The field \'Login\' is required.'
-    PASSWORD = 'The field \'Password\' is required.'
+class HotelRequired(Enum):
+    NOME = 'The field \'Nome\' is required.'
+    ESTRELAS = 'The field \'Estrelas\' is required.'
+    DIARIA = 'The field \'Diaria\' is required.'
+    CIDADE = 'The field \'Cidade\' is required.'
+    ACTIVE = 'The field \'Active\' is required.'
+    CHECKED = 'The field \'Checked\' is required.'
+    UF = 'The field \'UF\' is required.'
+    USER_ID = 'The field \'User Id\' is required.'
