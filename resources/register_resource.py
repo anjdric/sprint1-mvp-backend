@@ -13,8 +13,8 @@ from models.user import UsuarioModel
 from schema.global_schema import MessageSchema
 
 
-@swagger.tags('ConfirmAccount')
-class Register(Resource):
+@swagger.tags('Account')
+class ConfirmAccount(Resource):
     @swagger.reorder_with(MessageSchema, summary="Confirm Registration.")
     @swagger.response(schema=MessageSchema, response_code=_.BAD_REQUEST, description=_.BAD_REQUEST.description)
     @swagger.response(schema=MessageSchema, response_code=_.INTERNAL_SERVER_ERROR, description=_.INTERNAL_SERVER_ERROR.description)
